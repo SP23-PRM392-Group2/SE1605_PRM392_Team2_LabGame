@@ -22,7 +22,6 @@ import java.util.TimerTask;
 public class RacingActivity extends AppCompatActivity {
     List<Horse> horses = new ArrayList<>();
     int[] progress = {10000, 10000, 10000};
-    private final String[] characterName = {"Horse Red", "Horse Green", "Horse Blue"};
     Button btnPlay;
     Button btnPlayAgain;
     Button btnClear;
